@@ -20,12 +20,9 @@
 #include "lwip_comm.h"
 #include "includes.h"
 #include "lwipopts.h"
-
 #include "cJSON.h"
 #include "mqtt_app.h"
-
 #include "text.h"	
-
 #include "ds18b20.h"
 #include "sdio_sdcard.h"    
 #include "w25qxx.h"    
