@@ -49,7 +49,6 @@ __align(8) static OS_STK	DISPLAY_TASK_STK[DISPLAY_STK_SIZE];
 //任务函数
 void display_task(void *pdata);
 
-
 //LED任务
 //任务优先级
 #define LED_TASK_PRIO		9
@@ -59,7 +58,6 @@ void display_task(void *pdata);
 __align(8) static OS_STK	LED_TASK_STK[LED_STK_SIZE];
 //任务函数
 void led_task(void *pdata);  
-
 
 //START任务
 //任务优先级
@@ -80,7 +78,6 @@ void mqtt_task(void *pdata);
 #define dht11_stk_size   128
 __align(8) static OS_STK dht11_task_stk[dht11_stk_size];
 void dht11_task(void *pdata);
-
 
 //在LCD上显示地址信息
 //mode:1 显示DHCP获取到的地址
